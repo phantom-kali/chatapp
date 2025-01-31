@@ -9,8 +9,8 @@ SECRET_KEY = 'django-insecure-=vp%u3d222#w3iz$ynu4@ckyipocd%p*26fn710!nk#np^^9#j
 DEBUG = True
 
 ALLOWED_HOSTS = ["chatapp.onrender.com"]
-CSRF_TRUSTED_ORIGINS = ['https://chatapp.onrender.com']
-CORS_TRUSTED_ORIGINS = ['https://chatapp.onrender.com']
+CORS_TRUSTED_ORIGINS = ['https://chatapp-ghlf.onrender.com']
+CSRF_TRUSTED_ORIGINS = ['https://chatapp-ghlf.onrender.com']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
